@@ -1,0 +1,21 @@
+:root{
+  --color-red: #e20612;
+  --color-black: #333;
+}
+
+body{
+  color: var(--color-black);
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a{
+ color: var(--color-black) 
+}
+
+a:visited{
+  color: var(--color-black) 
+ }
+
+ a:hover{
+  color: var(--color-red) 
+ }
