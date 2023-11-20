@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "gulp build && eleventy",
+    "build": "eleventy",
     "clean": "rimraf _site",
     "debug": "gulp build && DEBUG=Eleventy* eleventy",
     "serve": "npm run clean && eleventy --serve",
